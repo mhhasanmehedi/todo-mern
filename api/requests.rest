@@ -1,0 +1,14 @@
+GET http://localhost:5000/todos
+
+###
+POST http://localhost:5000/todo/new
+ Content-Type: application/json
+
+ {
+   "text": "I have own formula"
+ }
+###
+DELETE http://localhost:5000/todo/delete/61dbe81f2b8ad66f456008d0
+
+###
+PUT http://localhost:5000/todo/complete/61dbe8802b8ad66f456008d3
